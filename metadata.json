@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Work",
+  "description": "Professional job discovery platform based in Phnom Penh, Cambodia, featuring secure identity verification and transparent application tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
