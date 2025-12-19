@@ -7,7 +7,5 @@ const supabaseUrl = 'https://gggzfbcprraubeffsohc.supabase.co';
 const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnZ3pmYmNwcnJhdWJlZmZzb2hjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjYxNjQyNjksImV4cCI6MjA4MTc0MDI2OX0.ryknxfaYnjv_gLhAgDQ-tCzHbmuDaNMLJsLTtS28xSI';
 // ---------------------
 
-export const isMockMode = false;
-
 // Initialize the Supabase client directly
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
