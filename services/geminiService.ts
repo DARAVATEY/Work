@@ -1,4 +1,4 @@
-
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import { GoogleGenAI, Type } from "@google/genai";
 
 export const verifyIdentityMatch = async (base64Image: string, userName: string) => {
